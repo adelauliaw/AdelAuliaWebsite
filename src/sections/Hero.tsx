@@ -1,5 +1,5 @@
-import { Element, Link as LinkScroll } from "react-scroll";
-import Button from "../components/Button.tsx";
+import { Element, Link as LinkScroll } from 'react-scroll';
+import Button from '../components/Button.tsx';
 
 const Hero = () => {
   return (
@@ -18,9 +18,17 @@ const Hero = () => {
               positively impact others and create value.
             </p>
             <LinkScroll to="experience" offset={-100} spy smooth>
-              <Button icon="/images/zap.svg">
+              <Button
+                icon="/images/zap.svg"
+                onClick={() =>
+                  window.open(
+                    'https://www.linkedin.com/in/adelauliaw/',
+                    '_blank',
+                    'noopener,noreferrer'
+                  )
+                }
+              >
                 My Experience
-                <a href="https://www.linkedin.com/in/adelauliaw/"></a>
               </Button>
             </LinkScroll>
           </div>
