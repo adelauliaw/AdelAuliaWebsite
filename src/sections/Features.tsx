@@ -32,8 +32,7 @@ const Features = () => {
                 </h2>
                 <p className="mb-11 body-1 max-md:mb-8 max-md:body-3">{text}</p>
                 <Button
-                  // key={button.id}
-                  // icon={<img src={button.icon} alt="icon" />} // menampilkan icon di dalam Button
+                  icon={button.icon} // menampilkan icon di dalam Button
                   onClick={() => window.open(button.link, "_blank")} // membuka link di tab baru
                 >
                   {button.title}

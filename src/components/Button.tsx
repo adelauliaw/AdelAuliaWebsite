@@ -27,11 +27,11 @@ const Button = ({
 
         {icon && (
           <>
-            {/* <img
-              // src={icon}
-              // alt="circle"
+            <img
+              src={icon}
+              alt="circle"
               className="size-10 mr-5 object-contain z-10"
-            /> */}
+            />
 
             <span className="relative z-2 font-poppins base-bold text-p1 uppercase">
               {children}
