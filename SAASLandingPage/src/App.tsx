@@ -2,6 +2,10 @@ import React from "react";
 import Header from "./sections/Header.tsx";
 import Hero from "./sections/Hero.tsx";
 import Features from "./sections/Features.tsx";
+import Pricing from "./sections/Pricing.tsx";
+import Faq from "./sections/Faq.tsx";
+import Download from "./sections/Download.tsx";
+import Footer from "./sections/Footer.tsx";
 
 const App = () => {
   return (
@@ -9,6 +13,10 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
+      <Pricing />
+      <Faq />
+      <Download />
+      <Footer />
     </main>
   );
 };
