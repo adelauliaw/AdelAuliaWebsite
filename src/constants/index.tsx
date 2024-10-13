@@ -51,7 +51,7 @@ Translated user feedback into actionable development tasks.
 Collaborated with QA to ensure high-quality software releases.
 Developed and maintained front-end code using clean code principles.`,
     button: {
-      icon: "/images/magictouch.svg",
+      // icon: "/images/magictouch.svg",
       link: "https://www.linkedin.com/in/adelauliaw/",
       title: "See More Detail Here",
     },
