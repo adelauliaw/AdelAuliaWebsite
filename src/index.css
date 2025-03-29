@@ -312,4 +312,31 @@
   }
 
   /*  END of Footer*/
+
+
+  /* Keyframes untuk gerakan "scribble" */
+@keyframes scribble-move {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  25% {
+    transform: rotate(10deg) translateX(5px);
+  }
+  50% {
+    transform: rotate(0deg) translateX(10px);
+  }
+  75% {
+    transform: rotate(-10deg) translateX(5px);
+  }
+  100% {
+    transform: rotate(0deg) translateX(0);
+  }
+}
+
+/* Kelas untuk memicu animasi */
+.scribble-animation {
+  /* Durasi 3s, jalankan terus (infinite) 
+     Selama splash masih terlihat, animasi akan jalan */
+  animation: scribble-move 3s ease-in-out infinite;
+}
 }
